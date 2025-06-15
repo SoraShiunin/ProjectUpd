@@ -1,0 +1,15 @@
+name: ProjectUpd
+version: ${project.version}
+main: com.darkermoon.ProjectUpd
+api-version: 1.16
+depend: [ProjectKorra]
+softdepend: [PlaceholderAPI]
+authors: [NickC1211, Numin, Darkermoon, Manu, xLumos, FinnBueno,Sammycocobear]
+description: New and Old Abilities Rejoice, ProjectUpd.
+
+permissions:
+  bending.water:
+    default: true
+    description: Gives access to all water Abilities
+    children:
+      bending.ability.whip: true
